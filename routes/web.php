@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\LocalizationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,6 @@ use App\Http\Controllers\ProductController;
 Route::get('/', [HomeController::class, 'show']);
 
 Route::resource('products', ProductController::class);
+
+// Localization Route
+Route::get("locale/{lange}", [LocalizationController::class, 'setLang']);
