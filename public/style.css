@@ -1,0 +1,22 @@
+.row.rowindex {
+    margin-top: 3rem;
+}
+
+.tableproduct {
+    margin-top: 2rem;
+}
+
+.row.rowedit h3,
+.row.rowcreate h3,
+.row.rowshow h3 {
+    margin: 1rem 0;
+}
+
+.formcontrollcss {
+    height: 150px;
+}
+
+.tableproduct tr,
+th:last-child {
+    width: 18rem;
+}
